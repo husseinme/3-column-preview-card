@@ -1,0 +1,16 @@
+:root {
+  /* Primary Colors */
+  --gold-500: hsl(31, 77%, 52%);
+  --cyan-800: hsl(184, 100%, 22%);
+  --green-950: hsl(179, 100%, 13%);
+  
+  /* Neutral Colors */
+  --white-transparent: hsla(0, 0%, 100%, 0.75);
+  --gray-100: hsl(0, 0%, 95%);
+}
+
+body{
+    margin: 0;
+    background-color: var(--gray-100);
+    font-family: Lexend Deca;
+}
