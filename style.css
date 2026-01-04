@@ -10,7 +10,48 @@
 }
 
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
+    height: 100vh;
     background-color: var(--gray-100);
     font-family: Lexend Deca;
+}
+
+/*TYPOGRAPHY*/
+h1{
+    font-family: Big Shoulders;
+    color: white;
+}
+
+main{
+    display: flex;
+}
+
+.sedans-section{
+    background-color: var(--gold-500);
+    color: var(--white-transparent);
+    border-radius: 0.5rem 0 0 0.5rem;
+    padding: 3rem;
+}
+
+.text-section{
+    width: 210px;
+    margin-bottom: 5rem;
+}
+
+button{
+    padding: 0.5rem 2rem;
+    border: none;
+    color: var(--gold-500);
+    font-family: Lexend Deca;
+    border-radius: 25px;
+    transition: background-color 0.25s, color 0.25s, border 0.25s;
+}
+
+button:hover{
+    background-color: var(--gold-500);
+    color: white;
+    border: 1px solid white;
 }
