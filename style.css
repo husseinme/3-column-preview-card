@@ -29,12 +29,29 @@ main{
     display: flex;
 }
 
+.suv-section, .sedans-section, .luxury-section{
+    padding: 3rem;
+    background-color: var(--gold-500);
+    color: var(--white-transparent);
+}
+
 .sedans-section{
     background-color: var(--gold-500);
     color: var(--white-transparent);
     border-radius: 0.5rem 0 0 0.5rem;
-    padding: 3rem;
 }
+
+.suv-section{
+    background-color: var(--cyan-800);
+
+}
+
+.luxury-section{
+    background-color: var(--green-950);
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+
 
 .text-section{
     width: 210px;
@@ -44,14 +61,32 @@ main{
 button{
     padding: 0.5rem 2rem;
     border: none;
-    color: var(--gold-500);
     font-family: Lexend Deca;
     border-radius: 25px;
+    border: 1px solid white;
     transition: background-color 0.25s, color 0.25s, border 0.25s;
+    font-size: 1rem;
 }
 
 button:hover{
-    background-color: var(--gold-500);
     color: white;
-    border: 1px solid white;
+}
+
+.sedan-learn-more{
+    color: var(--gold-500);
+}
+.sedan-learn-more:hover{
+    background-color: var(--gold-500);
+}
+.suv-learn-more{
+    color: var(--cyan-800);
+}
+.suv-learn-more:hover{
+    background-color: var(--cyan-800);
+}
+.luxury-learn-more{
+    color: var(--green-950);
+}
+.luxury-learn-more:hover{
+    background-color: var(--green-950);
 }
