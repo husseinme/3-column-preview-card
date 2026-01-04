@@ -20,9 +20,10 @@ body{
 }
 
 /*TYPOGRAPHY*/
-h1{
+h2{
     font-family: Big Shoulders;
     color: white;
+    font-size: 3rem;
 }
 
 main{
