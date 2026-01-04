@@ -27,9 +27,17 @@ h1{
 
 main{
     display: flex;
+    height: 500px;
+}
+
+img{
+    height: 40px;
+    width: 64px;
 }
 
 .suv-section, .sedans-section, .luxury-section{
+    display: flex;
+    flex-direction: column;
     padding: 3rem;
     background-color: var(--gold-500);
     color: var(--white-transparent);
@@ -55,7 +63,7 @@ main{
 
 .text-section{
     width: 210px;
-    margin-bottom: 5rem;
+    margin-bottom: auto;
 }
 
 button{
@@ -66,6 +74,7 @@ button{
     border: 1px solid white;
     transition: background-color 0.25s, color 0.25s, border 0.25s;
     font-size: 1rem;
+    margin-right: auto;
 }
 
 button:hover{
@@ -90,3 +99,4 @@ button:hover{
 .luxury-learn-more:hover{
     background-color: var(--green-950);
 }
+
